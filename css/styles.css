@@ -34,7 +34,7 @@ a:hover {
 /* container login */
 
 #login-container {
-    background-color: white;
+    background-color: brown;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -53,7 +53,7 @@ form {
 label-input {
     display: block;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 label {
@@ -62,7 +62,7 @@ label {
 }
 
 input {
-    border: 2px solid aquamarine;
+    border: 2px solid black;
     padding: 10px;
     font-size: 1rem;
     margin: 20px;
@@ -70,22 +70,24 @@ input {
 
 input:focus {
     border-bottom: 2PX solid darkgoldenrod;
+    text-align: center;
 }
 
 #forgot-pass {
-    text-align: right;
+    text-align: center;
     display: block;
 }
 
-input[type="submit"] {
+input[type="submit"] a {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+    width: 100%;
     border: none;
     height: 40px;
     border-radius: 20px;
     margin: 30px;
-    color:  white;
+    color:  black;
     background-color: blue;
     cursor: pointer;
 }
@@ -106,7 +108,7 @@ input[type="submit"]:hover {
     width: 40px;
     border-radius: 50%;
     line-height: 40px;
-    color: aliceblue;
+    color: royalblue;
     margin: 5px;
     cursor: pointer;
 }
@@ -114,7 +116,7 @@ input[type="submit"]:hover {
 .fa fa facebook f {
     background-color: rebeccapurple;
 
-}~
+}
 
 /* registrar */
 
